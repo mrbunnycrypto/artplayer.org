@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--background-color, #121212);
+    color: var(--text-color, #ffffff);
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+header {
+    margin: 20px;
+}
+
+#player {
+    width: 80%;
+    height: 60%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: var(--button-bg, #1e88e5);
+    color: var(--button-text, #ffffff);
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
